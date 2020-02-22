@@ -18,8 +18,5 @@ class Anagram
     end
     matching_anagram
   end 
-  
-  
-  
-  
+
 end 
