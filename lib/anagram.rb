@@ -4,7 +4,7 @@ class Anagram
   attr_accessor :word
   
   def initialize(word) 
-    @word = word
+    @word = word.sort
   end 
   
   def match(words) 
@@ -14,9 +14,6 @@ class Anagram
       
       
       binding.pry
- 
-        
-      
     end 
   end 
   
