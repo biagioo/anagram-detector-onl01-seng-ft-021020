@@ -5,6 +5,7 @@ class Anagram
   
   def initialize(word) 
     word_split = word.split("")
+  binding.pry
   end 
   
   def match(words) 
@@ -13,7 +14,7 @@ class Anagram
       
       
       
-      binding.pry
+     # binding.pry
     end 
   end 
   
