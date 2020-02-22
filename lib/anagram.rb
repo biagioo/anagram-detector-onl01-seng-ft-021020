@@ -11,8 +11,6 @@ class Anagram
     words.collect do |word| 
       if @word == word
         word 
-      else 
-        
       end 
     end 
   end 
