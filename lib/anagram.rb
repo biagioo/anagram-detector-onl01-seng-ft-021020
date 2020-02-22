@@ -12,7 +12,7 @@ class Anagram
     matching_anagram = []
     words.each do |word| 
      word_split = word.split("")
-      if @word == word_split 
+      if @word == word_split.sort 
         matching_anagram << word 
       end 
     end
