@@ -14,7 +14,6 @@ class Anagram
      word_split = word.split("")
       if @word == word_split 
         matching_anagram << word 
-      # binding.pry 
       end 
     end
     matching_anagram
