@@ -4,12 +4,12 @@ class Anagram
   attr_accessor :word
   
   def initialize(word) 
-    @word = word 
+    @word = word.sort 
   end 
   
   def match(words) 
     words.collect do |word| 
-      if @word.sort == word.sort
+      if @word == word.sort
         word 
       end 
     end 
