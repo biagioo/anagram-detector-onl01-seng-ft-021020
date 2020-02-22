@@ -12,6 +12,7 @@ class Anagram
     
     split_words.collect do |word| 
       word.split("")
+      binding.pry
  
         
       
