@@ -12,7 +12,7 @@ class Anagram
       if @word == word
         word 
       else 
-        []
+        
       end 
     end 
   end 
