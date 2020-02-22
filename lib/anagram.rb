@@ -9,6 +9,7 @@ class Anagram
   end 
   
   def match(words) 
+    matching_word = []
     words.collect do |word| 
      word_split = word.split("")
       if @word == word_split 
@@ -17,7 +18,6 @@ class Anagram
       end 
      # binding.pry
     end 
-    words
   end 
   
   
