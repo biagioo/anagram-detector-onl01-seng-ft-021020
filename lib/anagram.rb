@@ -11,11 +11,10 @@ class Anagram
     split_words = words
     
     split_words.collect do |word| 
-      binding.pry
-      if @word == word.sort
-        word 
+      word.split("")
+ 
         
-      end 
+      
     end 
   end 
   
